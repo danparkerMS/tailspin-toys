@@ -1,0 +1,55 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - button "Toggle menu" [ref=e6]
+      - link "Tailspin Toys" [ref=e10] [cursor=pointer]:
+        - /url: /
+  - main [ref=e11]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - heading "Welcome to Tailspin Toys" [level=1] [ref=e15]
+        - paragraph [ref=e16]: Find your next game! And maybe even back one! Explore our collection!
+      - generic [ref=e17]:
+        - heading "Featured Games" [level=2] [ref=e18]
+        - search "Filter games" [ref=e19]:
+          - generic [ref=e20]:
+            - generic [ref=e21]: Publisher
+            - combobox "Publisher" [ref=e22]:
+              - option "All publishers"
+              - option "CodeForge Studios"
+              - option "DevMasters Inc."
+              - option "GitHub Games" [selected]
+              - option "Ops Interactive"
+          - group "Category" [ref=e23]:
+            - generic [ref=e25]:
+              - generic [ref=e26] [cursor=pointer]:
+                - checkbox "Action" [checked] [active] [ref=e27]
+                - text: Action
+              - generic [ref=e28] [cursor=pointer]:
+                - checkbox "Adventure" [ref=e29]
+                - text: Adventure
+              - generic [ref=e30] [cursor=pointer]:
+                - checkbox "Puzzle" [ref=e31]
+                - text: Puzzle
+              - generic [ref=e32] [cursor=pointer]:
+                - checkbox "Simulation" [ref=e33]
+                - text: Simulation
+              - generic [ref=e34] [cursor=pointer]:
+                - checkbox "Strategy" [ref=e35]
+                - text: Strategy
+          - button "Clear filters" [ref=e37]
+        - status [ref=e38]: 1 game shown
+        - link "Repo Rampart Action GitHub Games Repo Rampart immerses you in adrenaline-charged defense missions where every command must protect your precious codebases. With Mona leading your strategy, prevent intrusions and execute swift countermeasures in electrifying action sequences. Support this game through our crowdfunding platform! View details" [ref=e223] [cursor=pointer]:
+          - /url: /game/19
+          - generic [ref=e226]:
+            - heading "Repo Rampart" [level=3] [ref=e227]
+            - generic [ref=e228]:
+              - generic [ref=e229]: Action
+              - generic [ref=e230]: GitHub Games
+            - paragraph [ref=e231]: Repo Rampart immerses you in adrenaline-charged defense missions where every command must protect your precious codebases. With Mona leading your strategy, prevent intrusions and execute swift countermeasures in electrifying action sequences. Support this game through our crowdfunding platform!
+            - generic [ref=e232]: View details
+  - generic [ref=e336]:
+    - button [ref=e337]
+    - button [ref=e343]
+    - button [ref=e347]
+    - button [ref=e352]

@@ -1,0 +1,92 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - button "Toggle menu" [ref=e6]
+      - link "Tailspin Toys" [ref=e10] [cursor=pointer]:
+        - /url: /
+  - main [ref=e11]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - heading "Welcome to Tailspin Toys" [level=1] [ref=e15]
+        - paragraph [ref=e16]: Find your next game! And maybe even back one! Explore our collection!
+      - generic [ref=e17]:
+        - heading "Featured Games" [level=2] [ref=e18]
+        - search "Filter games" [ref=e19]:
+          - generic [ref=e20]:
+            - generic [ref=e21]: Publisher
+            - combobox "Publisher" [ref=e22]:
+              - option "All publishers" [selected]
+              - option "CodeForge Studios"
+              - option "DevMasters Inc."
+              - option "GitHub Games"
+              - option "Ops Interactive"
+          - group "Category" [ref=e23]:
+            - generic [ref=e25]:
+              - generic [ref=e26] [cursor=pointer]:
+                - checkbox "Action" [checked] [active] [ref=e27]
+                - text: Action
+              - generic [ref=e28] [cursor=pointer]:
+                - checkbox "Adventure" [ref=e29]
+                - text: Adventure
+              - generic [ref=e30] [cursor=pointer]:
+                - checkbox "Puzzle" [ref=e31]
+                - text: Puzzle
+              - generic [ref=e32] [cursor=pointer]:
+                - checkbox "Simulation" [ref=e33]
+                - text: Simulation
+              - generic [ref=e34] [cursor=pointer]:
+                - checkbox "Strategy" [ref=e35]
+                - text: Strategy
+          - button "Clear filters" [ref=e37]
+        - status [ref=e38]: 5 games shown
+        - generic [ref=e39]:
+          - link "Cloud Conqueror Action CodeForge Studios Cloud Conqueror thrusts you into a high-stakes aerial battle against rogue cloud services. With Mona as your co-pilot, navigate through stormy skies and outmaneuver digital adversaries in a quest to reclaim control over your virtual domain. Support this game through our crowdfunding platform! View details" [ref=e69] [cursor=pointer]:
+            - /url: /game/21
+            - generic [ref=e72]:
+              - heading "Cloud Conqueror" [level=3] [ref=e73]
+              - generic [ref=e74]:
+                - generic [ref=e75]: Action
+                - generic [ref=e76]: CodeForge Studios
+              - paragraph [ref=e77]: Cloud Conqueror thrusts you into a high-stakes aerial battle against rogue cloud services. With Mona as your co-pilot, navigate through stormy skies and outmaneuver digital adversaries in a quest to reclaim control over your virtual domain. Support this game through our crowdfunding platform!
+              - generic [ref=e78]: View details
+          - link "Repo Rampart Action GitHub Games Repo Rampart immerses you in adrenaline-charged defense missions where every command must protect your precious codebases. With Mona leading your strategy, prevent intrusions and execute swift countermeasures in electrifying action sequences. Support this game through our crowdfunding platform! View details" [ref=e223] [cursor=pointer]:
+            - /url: /game/19
+            - generic [ref=e226]:
+              - heading "Repo Rampart" [level=3] [ref=e227]
+              - generic [ref=e228]:
+                - generic [ref=e229]: Action
+                - generic [ref=e230]: GitHub Games
+              - paragraph [ref=e231]: Repo Rampart immerses you in adrenaline-charged defense missions where every command must protect your precious codebases. With Mona leading your strategy, prevent intrusions and execute swift countermeasures in electrifying action sequences. Support this game through our crowdfunding platform!
+              - generic [ref=e232]: View details
+          - link "Script Strike Action CodeForge Studios Script Strike propels you into a fast-paced coding battleground where every keystroke could change the tide of an intense conflict. Mona rallies your forces as you dive into real-time challenges that merge reflexes with smart script execution. Support this game through our crowdfunding platform! View details" [ref=e251] [cursor=pointer]:
+            - /url: /game/17
+            - generic [ref=e254]:
+              - heading "Script Strike" [level=3] [ref=e255]
+              - generic [ref=e256]:
+                - generic [ref=e257]: Action
+                - generic [ref=e258]: CodeForge Studios
+              - paragraph [ref=e259]: Script Strike propels you into a fast-paced coding battleground where every keystroke could change the tide of an intense conflict. Mona rallies your forces as you dive into real-time challenges that merge reflexes with smart script execution. Support this game through our crowdfunding platform!
+              - generic [ref=e260]: View details
+          - link "Syntax Smashdown Action Ops Interactive Syntax Smashdown offers an exhilarating arcade experience where rapid coding reflexes determine the outcome of explosive digital battles. Guided by the fearless Mona, your mission is to knock out glitches and secure the high-score in a realm where syntax is the ultimate weapon. Support this game through our crowdfunding platform! View details" [ref=e293] [cursor=pointer]:
+            - /url: /game/20
+            - generic [ref=e296]:
+              - heading "Syntax Smashdown" [level=3] [ref=e297]
+              - generic [ref=e298]:
+                - generic [ref=e299]: Action
+                - generic [ref=e300]: Ops Interactive
+              - paragraph [ref=e301]: Syntax Smashdown offers an exhilarating arcade experience where rapid coding reflexes determine the outcome of explosive digital battles. Guided by the fearless Mona, your mission is to knock out glitches and secure the high-score in a realm where syntax is the ultimate weapon. Support this game through our crowdfunding platform!
+              - generic [ref=e302]: View details
+          - link "Terminal Turbulence Action DevMasters Inc. Terminal Turbulence pits you against rapid-fire command line confrontations where timing and precision are of the essence. Let Mona’s digital savvy guide your response strategies as you navigate chaotic server environments in high-octane style. Support this game through our crowdfunding platform! View details" [ref=e307] [cursor=pointer]:
+            - /url: /game/18
+            - generic [ref=e310]:
+              - heading "Terminal Turbulence" [level=3] [ref=e311]
+              - generic [ref=e312]:
+                - generic [ref=e313]: Action
+                - generic [ref=e314]: DevMasters Inc.
+              - paragraph [ref=e315]: Terminal Turbulence pits you against rapid-fire command line confrontations where timing and precision are of the essence. Let Mona’s digital savvy guide your response strategies as you navigate chaotic server environments in high-octane style. Support this game through our crowdfunding platform!
+              - generic [ref=e316]: View details
+  - generic [ref=e336]:
+    - button [ref=e337]
+    - button [ref=e343]
+    - button [ref=e347]
+    - button [ref=e352]
